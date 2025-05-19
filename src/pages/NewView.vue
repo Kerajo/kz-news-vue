@@ -65,7 +65,7 @@ const responsiveOptions = [
       <article class="article">
         <div class="article__head">
           <div class="article__image-container">
-            <img src="../../News/img-new-1.jpg" alt="Фото" />
+            <img src="../../public/News/img-new-1.jpg" alt="Фото" />
           </div>
 
           <div class="article__info-container">
