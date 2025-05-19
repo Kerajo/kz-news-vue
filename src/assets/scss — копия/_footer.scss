@@ -1,0 +1,52 @@
+@use 'vars' as vars;
+
+.footer {
+  margin-top: vars.$Gap-6XL;
+  padding: vars.$Gap-3XL 0 vars.$Gap-3XL 0;
+  background-color: vars.$Background-Content;
+
+  .footer__link-down {
+    color: vars.$Typography-Dark-SecondaryText;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: vars.$Typography-Dark-PrimaryText;
+    }
+  }
+
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: vars.$Gap-5XL;
+  }
+
+  &__top,
+  &__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: vars.$Gap-M;
+  }
+
+  &__weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: vars.$Gap-2XS;
+  }
+
+  &__copyright {
+    color: vars.$Typography-Dark-SecondaryText;
+  }
+}

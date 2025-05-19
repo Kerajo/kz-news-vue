@@ -1,0 +1,71 @@
+@use 'vars' as vars;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--Gap-XL);
+  border-radius: var(--Radius-3XL);
+  border: 1px solid var(--Border-Primary);
+  background-color: var(--Background-Content);
+  margin-top: var(--Gap-XL);
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--Gap-3XL);
+  }
+
+  &__nav {
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: var(--Gap-S);
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--Gap-L);
+  }
+
+  &__theme-switcher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--Gap-2XS);
+  }
+
+  &__weather {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--Gap-2XS);
+  }
+
+  &__menu-link {
+    color: var(--Typography-Dark-PrimaryText);
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--Typography-Dark-SecondaryText);
+    }
+
+    &--active {
+      font-weight: 600;
+    }
+  }
+
+  &__burger-menu {
+    display: none;
+  }
+}
+
+.open-menu {
+  display: none;
+}

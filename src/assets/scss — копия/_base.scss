@@ -1,0 +1,255 @@
+@use 'vars' as vars;
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: Inter;
+  color: vars.$Typography-Dark-PrimaryText;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  font-family: Inter;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-family: Inter;
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type='submit'] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+h1 {
+  color: vars.$Typography-Dark-PrimaryText;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+
+h2 {
+  color: vars.$Typography-Dark-PrimaryText;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+h3 {
+  color: vars.$Typography-Dark-PrimaryText;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+h4 {
+  color: vars.$Typography-Dark-PrimaryText;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+// h5 {
+//   color: vars.$Typography-Dark-PrimaryText;
+//   font-variant-numeric: lining-nums proportional-nums;
+//   font-family: Inter;
+//   font-size: 24px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 110%;
+// }
+
+// Font-Body-Medium
+
+@mixin Font-Body-Medium-Base {
+  font-family: inter;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.Font-Body-Medium-Regular {
+  @include Font-Body-Medium-Base;
+  font-weight: 400;
+}
+
+.Font-Body-Medium-Semibold {
+  @include Font-Body-Medium-Base;
+  font-weight: 600;
+}
+
+.Font-Body-Medium-Bold {
+  @include Font-Body-Medium-Base;
+  font-weight: 700;
+}
+
+// Font-Body-Medium
+
+@mixin Font-Body-Normal-Base {
+  font-family: inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.Font-Body-Normal-Regular {
+  @include Font-Body-Normal-Base;
+  font-weight: 400;
+}
+
+.Font-Body-Normal-Medium {
+  @include Font-Body-Normal-Base;
+  font-weight: 500;
+}
+
+.Font-Body-Normal-Semibold {
+  @include Font-Body-Normal-Base;
+  font-weight: 600;
+}
+
+.Font-Body-Normal-Bold {
+  @include Font-Body-Normal-Base;
+  font-weight: 700;
+}
+
+// Font-Body-Small
+
+@mixin Font-Body-Small-Base {
+  font-family: inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.Font-Body-Small-Regular {
+  @include Font-Body-Small-Base;
+  font-weight: 400;
+}
+
+.Font-Body-Small-Medium {
+  @include Font-Body-Small-Base;
+  font-weight: 500;
+}
+
+.Font-Body-Small-Bold {
+  @include Font-Body-Small-Base;
+  font-weight: 700;
+}
+
+// Font-Label
+
+.Font-Label-Normal {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.07px;
+}

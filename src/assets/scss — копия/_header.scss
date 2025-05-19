@@ -1,0 +1,55 @@
+@use 'vars' as vars;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-radius: vars.$Radius-3XL;
+  border: 1px solid vars.$Border-Primary;
+  background-color: vars.$Background-Content;
+  margin-top: vars.$Gap-XL;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: vars.$Gap-3XL;
+  }
+
+  &__nav {
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: vars.$Gap-S;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  &__weather {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: vars.$Gap-2XS;
+  }
+
+  &__menu-link {
+    color: vars.$Typography-Dark-PrimaryText;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: vars.$Typography-Dark-SecondaryText;
+    }
+
+    &--active {
+      font-weight: 600;
+    }
+  }
+}

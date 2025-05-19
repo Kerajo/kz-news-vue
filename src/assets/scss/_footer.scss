@@ -1,0 +1,52 @@
+@use 'vars' as vars;
+
+.footer {
+  margin-top: var(--Gap-6XL);
+  padding: var(--Gap-3XL) 0 var(--Gap-3XL) 0;
+  background-color: var(--Background-Content);
+
+  .footer__link-down {
+    color: var(--Typography-Dark-SecondaryText);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--Typography-Dark-PrimaryText);
+    }
+  }
+
+  & .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--Gap-5XL);
+  }
+
+  &__top,
+  &__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    gap: var(--Gap-M);
+  }
+
+  &__weather {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--Gap-2XS);
+  }
+
+  &__copyright {
+    color: var(--Typography-Dark-SecondaryText);
+  }
+}

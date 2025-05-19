@@ -1,0 +1,123 @@
+// *----------------------------------------------------*
+// Primary
+
+$Color-Primary: #8a7fff;
+$Color-DarkerPrimary: #6759ff;
+$Color-LighterPrimary: #00233a;
+$Color-SubtlePrimary: #00233a;
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+// Typography
+
+// Dark
+$Typography-Dark-PrimaryText: #e0dcdd;
+$Typography-Dark-SecondaryText: #a2afc8;
+$Typography-Dark-DisabledText: #0d0d0d;
+
+// Light
+$Typography-Light-PrimaryText: #121212;
+$Typography-Light-SecondaryText: #6b7588;
+$Typography-Light-DisabledText: #222731;
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+// Background
+
+$Background-Content: #0d0d0d;
+$Background-Secondary: #151515;
+$Background-SecondaryAlpha: rgba(21, 21, 21, 0.15);
+$Background-Tertiary: #f6f7f8;
+$Background-Dark: #e0dcdd;
+// *----------------------------------------------------*
+
+// *----------------------------------  ------------------*
+// Button
+
+// Primary
+$Button-Primary-DefoltButton: $Color-Primary;
+$Button-Primary-HowerButton: $Color-DarkerPrimary;
+$Button-Primary-PressButton: $Color-LighterPrimary;
+$Button-Primary-Disabled: #4a4a4a;
+
+// Secondary
+$Button-Secondary-DefoltButton: $Typography-Dark-PrimaryText;
+$Button-Secondary-HowerButton: #c9c9c9;
+$Button-Secondary-PressButton: #a4a4a4;
+$Button-Secondary-Disabled: #cdd0d6;
+
+// Tertiary
+$Button-Tertiary-DefoltButton: $Background-Content;
+$Button-Tertiary-HowerButton: #1b1b1b;
+$Button-Tertiary-PressButton: #2c2c2c;
+$Button-Tertiary-Disabled: $Background-Secondary;
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+// Border&Divader
+$Border-Primary: #202c31;
+$Border-Secondary: #181818;
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+// State
+
+// Error
+$State-Error-PrimaryError: #ff3b3b;
+$State-Error-DarkerError: #e53535;
+$State-Error-LighterError: #ff5c5c;
+$State-Error-SubtleError: #ff8080;
+
+// Warning
+$State-Warning-PrimaryError: #ffcc00;
+$State-Warning-DarkerError: #e5b800;
+$State-Warning-LighterError: #fddd48;
+$State-Warning-SubtleError: #fded72;
+
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+
+// Gap
+$Gap-2XS: 4px;
+$Gap-XS: 8px;
+$Gap-S: 12px;
+$Gap-M: 16px;
+$Gap-L: 20px;
+$Gap-XL: 24px;
+$Gap-2XL: 32px;
+$Gap-3XL: 48px;
+$Gap-4XL: 64px;
+$Gap-5XL: 80px;
+$Gap-6XL: 120px;
+$Gap-7XL: 160px;
+
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+
+// Radius
+$Radius-S: 4px;
+$Radius-M: 6px;
+$Radius-L: 8px;
+$Radius-XL: 12px;
+$Radius-2XL: 16px;
+$Radius-3XL: 24px;
+$Radius-4XL: 32px;
+$Radius-FULL: 1000px;
+
+// *----------------------------------------------------*
+
+// *----------------------------------------------------*
+
+// Size
+
+$Size-XS: 12px;
+$Size-S: 16px;
+$Size-M: 24px;
+$Size-L: 32px;
+$Size-XL: 40px;
+$Size-2XL: 48px;
+$Size-3XL: 64px;
+
+// *----------------------------------------------------*
