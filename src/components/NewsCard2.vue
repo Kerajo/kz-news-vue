@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <router-link :to="`/article/${id}`" class="new-news">
+  <router-link :to="`/new/1`" class="new-news">
     <div class="new-news__container">
       <img :src="image" :alt="label" class="new-news__img" />
     </div>

@@ -33,7 +33,7 @@ const menuItems = inject('menuItems')
         </div>
       </div>
       <div class="footer__down">
-        <router-link to="/404" class="footer__link-down Font-Normal-Regular"
+        <router-link to="/privacy" class="footer__link-down Font-Normal-Regular"
           >Политика конфиденциальности</router-link
         >
         <span class="footer__copyright">© 2024—2025 ТОО «KZ-NEWS»</span>

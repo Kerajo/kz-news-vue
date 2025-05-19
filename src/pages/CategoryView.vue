@@ -36,6 +36,7 @@ const filteredArticles = computed(() => {
             class="news-category__card"
             v-for="mass in filteredArticles"
             :key="mass.key"
+            :id="mass.key"
             :label="mass.label"
             :image="mass.image"
             :date="mass.date"
